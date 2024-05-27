@@ -1,0 +1,13 @@
+.row {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .bg-light {
+    text-align: center; /* Căn giữa nội dung trong cột theo chiều ngang */
+    margin-top: 4rem; /* Khoảng cách từ trên xuống */
+    border-radius: 30px;
+  }
+  .buy .btn{
+    margin: 0 10px;
+  }

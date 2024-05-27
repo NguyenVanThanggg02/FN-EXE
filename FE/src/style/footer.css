@@ -1,0 +1,25 @@
+.footer{
+    background-color: #272625;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: white;
+}
+.clicked{
+    color: white;
+    
+}
+.content_contact{
+    color: white;
+
+}
+.content_contact a{
+    color: white;
+}
+.copyright {
+    background-color: #f4ce39;
+    text-align: center;
+    height: 30px;
+}
