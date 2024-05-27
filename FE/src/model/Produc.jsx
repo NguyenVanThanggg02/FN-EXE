@@ -3,6 +3,7 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import { Galleria } from "primereact/galleria";
 import "../style/product.css";
 import axios from "axios";
+import { CartFill, CashCoin } from "react-bootstrap-icons";
 
 const Produc = ({ productId, onAddToCart }) => {
   const [quantity, setQuantity] = useState(1); // Default quantity to 1
@@ -80,15 +81,11 @@ const Produc = ({ productId, onAddToCart }) => {
             <h4 className="text-center p-2">{product.name}</h4>
             <hr />
             <div className="price-box clearfix">
-              <span className="old-price">
-                <del className="price product-price-old">
-                  <small>1.500.000₫</small>
-                </del>
-              </span>
+              
               <span className="save-price">
-                <span className="price product-price-save">
-                  -{product.price}
-                </span>
+                <h4 className="price product-price-save">
+                 <CashCoin style={{color:'yellow', fontSize:'36px'}}/> {product.price}
+                </h4>
               </span>
             </div>
             <hr />
