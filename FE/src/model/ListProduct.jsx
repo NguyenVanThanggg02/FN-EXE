@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
-import { CartDashFill } from "react-bootstrap-icons";
+import { CartDashFill, CashCoin } from "react-bootstrap-icons";
 import axios from "axios";
 
 const ListProduct = ({ onProductSelect, search, onAddToCart }) => {
@@ -53,10 +53,10 @@ const ListProduct = ({ onProductSelect, search, onAddToCart }) => {
                 />
                 <Card.Body className="text-center">
                   <Card.Title>{p.name}</Card.Title>
-                  <Card.Title>{p.price}</Card.Title>
+                  <Card.Title> <CashCoin style={{color:'yellow', fontSize:'36px', paddingTop:'5px'}}/>{" " + p.price + " VND"}</Card.Title>
                 </Card.Body>
               </div>
-              <Card.Footer className="text-center">
+              {/* <Card.Footer className="text-center">
                 <Button 
                   className="btn btn-danger" 
                   onClick={() => onAddToCart(p)}
@@ -64,7 +64,7 @@ const ListProduct = ({ onProductSelect, search, onAddToCart }) => {
                   <CartDashFill style={{ color: "white", fontSize: "30px" }} />
                   Thêm vào giỏ Hàng
                 </Button>
-              </Card.Footer>
+              </Card.Footer> */}
             </Card>
           </Col>
         ))}
