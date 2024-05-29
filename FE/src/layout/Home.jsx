@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import React, { useState } from "react";
 import Header from "../components/Header";
 import Mid_Header from "../components/Mid_Header";
@@ -29,8 +30,34 @@ const Home = () => {
     setSearch(name);
   };
 
+  // const handleAddToCart = (product) => {
+  //   setCartItems((prevItems) => {
+  //     const existingItem = prevItems.find((item) => item._id === product._id);
+  //     if (existingItem) {
+  //       // If the item already exists in the cart, update its quantity
+  //       const updatedItems = prevItems.map((item) =>
+  //         item._id === product._id
+  //           ? { ...item, quantity: item.quantity + 1 }
+  //           : item
+  //       );
+  //       setCartItems(updatedItems);
+  //       // Display success toast message
+  //       toast.success("Số lượng sản phẩm đã được cập nhật trong giỏ hàng!");
+  //       return updatedItems;
+  //     } else {
+  //       // If the item is not in the cart, add it with quantity 1
+  //       const newCartItems = [...prevItems, { ...product, quantity: 1 }];
+  //       setCartItems(newCartItems);
+  //       // Display success toast message
+  //       toast.success("Sản phẩm đã được thêm vào giỏ hàng!");
+  //       return newCartItems;
+  //     }
+  //   });
+  // };
+
   const handleAddToCart = (product) => {
     setCartItems((prevItems) => {
+      // Kiểm tra xem sản phẩm với kích thước cụ thể đã có trong giỏ hàng chưa
       const existingItem = prevItems.find((item) => item._id === product._id);
       if (existingItem) {
         // If the item already exists in the cart, update its quantity
@@ -40,14 +67,12 @@ const Home = () => {
             : item
         );
         setCartItems(updatedItems);
-        // Display success toast message
         toast.success("Số lượng sản phẩm đã được cập nhật trong giỏ hàng!");
         return updatedItems;
       } else {
-        // If the item is not in the cart, add it with quantity 1
-        const newCartItems = [...prevItems, { ...product, quantity: 1 }];
+        // Nếu sản phẩm chưa tồn tại, thêm mới vào giỏ hàng
+        const newCartItems = [...prevItems, product];
         setCartItems(newCartItems);
-        // Display success toast message
         toast.success("Sản phẩm đã được thêm vào giỏ hàng!");
         return newCartItems;
       }
@@ -55,6 +80,7 @@ const Home = () => {
   };
 
   const removeFromCart = (productId) => {
+    window.confirm("Are you sure you want to remove" + productId);
     setCartItems((prevItems) =>
       prevItems.filter((item) => item._id !== productId)
     );
