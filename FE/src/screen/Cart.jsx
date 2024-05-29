@@ -12,15 +12,17 @@ const Cart = ({ visible, setVisible, cartItems, removeFromCart, setCartItems }) 
   const handleQuantityChange = (productId, newQuantity) => {
     setCartItems((prevItems) =>
       prevItems.map((item) =>
-        item._id === productId ? { ...item, quantity: parseInt(newQuantity) } : item
+        item._id === productId && item._id ? { ...item, quantity: parseInt(newQuantity) } : item
       )
     );
   };
 
+
+
   const dialogFooter = (
     <div style={{ margin: "20px" }}>
       <div style={{ display: "flex", justifyContent: "start" }}>
-        <h5>Total: {cartItems.reduce((total, item) => total + item.price * item.quantity, 0)}</h5>
+        <h5>Total: {cartItems.reduce((total, item) => total + item.price * item.quantity, 0).toFixed(2)}</h5>
       </div>
       <Link to={"/payment"}>
         <Button className="btn btn-success" onClick={handleCheckout}>
@@ -53,12 +55,12 @@ const Cart = ({ visible, setVisible, cartItems, removeFromCart, setCartItems }) 
                     <thead>
                       <tr>
                         <th style={{ width: "15%" }}>Image</th>
-                        <th style={{ width: "25%" }}>Product</th>
-                        <th style={{ width: "15%" }}>Quantity</th>
-                        <th style={{ width: "20%" }}>Price</th>
-                        {/* <th style={{ width: "20%" }}>Size</th> */}
-                        <th style={{ width: "25%" }}>Total</th>
-                        <th style={{ width: "25%" }}>Option</th>
+                        <th style={{ width: "20%" }}>Product</th>
+                        <th style={{ width: "10%" }}>Quantity</th>
+                        <th style={{ width: "10%" }}>Price</th>
+                        <th style={{ width: "10%" }}>Size</th> {/* Thêm cột Size */}
+                        <th style={{ width: "15%" }}>Total</th>
+                        <th style={{ width: "20%" }}>Option</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -85,7 +87,8 @@ const Cart = ({ visible, setVisible, cartItems, removeFromCart, setCartItems }) 
                             />
                           </td>
                           <td style={{ verticalAlign: "middle" }}>{item.price}</td>
-                          <td style={{ verticalAlign: "middle" }}>{item.price * item.quantity}</td>
+                          <td style={{ verticalAlign: "middle" }}>{item.size}</td>
+                          <td style={{ verticalAlign: "middle" }}>{(item.price * item.quantity).toFixed(2)}</td>
                           <td style={{ verticalAlign: "middle" }}>
                             <Trash
                               style={{

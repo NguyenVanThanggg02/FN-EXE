@@ -1,13 +1,17 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useEffect, useState } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { Galleria } from "primereact/galleria";
 import "../style/product.css";
 import axios from "axios";
-import { CartFill, CashCoin } from "react-bootstrap-icons";
+import { toast, ToastContainer } from "react-toastify";
+import { CashCoin } from "react-bootstrap-icons";
+
 
 const Produc = ({ productId, onAddToCart }) => {
   const [quantity, setQuantity] = useState(1); // Default quantity to 1
   const [product, setProduct] = useState({});
+  const [selectedSize, setSelectedSize] = useState("");
 
   useEffect(() => {
     if (productId) {
@@ -31,14 +35,21 @@ const Produc = ({ productId, onAddToCart }) => {
       // Ensure quantity never goes below 1
       setQuantity((prevQuantity) => prevQuantity - 1);
     }
+
   };
 
   const handleAddToCart = () => {
     if (quantity > 0) {
-      const productToAdd = { ...product, quantity }; // Include quantity in product object
+      const productToAdd = { ...product, quantity, size: selectedSize }; // Include quantity in product object
       onAddToCart(productToAdd);
       setQuantity(1); // Reset quantity after adding to cart
+      setSelectedSize("");
+
+    } else {
+      // Handle the case where no size is selected or quantity is zero
+      toast.warning("Nhớ chọn size")
     }
+
   };
 
   return (
@@ -66,7 +77,7 @@ const Produc = ({ productId, onAddToCart }) => {
                   <img
                     src={item}
                     alt="image"
-                    style={{ width: "100%", height: "140px" }}
+                    style={{ width: "100%", height: "140px", objectFit:'fill' }}
                   />
                 )}
               />
@@ -83,9 +94,9 @@ const Produc = ({ productId, onAddToCart }) => {
             <div className="price-box clearfix">
               
               <span className="save-price">
-                <h4 className="price product-price-save">
-                 <CashCoin style={{color:'yellow', fontSize:'36px'}}/> {product.price}
-                </h4>
+                <span className="price product-price-save">
+                <CashCoin style={{color:'yellow', fontSize:'36px'}}/> {product.price +" VND"} 
+                </span>
               </span>
             </div>
             <hr />
@@ -95,7 +106,12 @@ const Produc = ({ productId, onAddToCart }) => {
               <h5>Kích Thước</h5>
               {product.sizes &&
                 product.sizes.map((s, index) => (
-                  <Button key={index} className="btn btn-warning mr-2">
+                  <Button
+                    key={index}
+                    className={`btn ${selectedSize === s.size ? "btn-primary" : "btn-warning"
+                      } mr-2`}
+                    onClick={() => setSelectedSize(s.size)}
+                  >
                     {s.size}
                   </Button>
                 ))}
