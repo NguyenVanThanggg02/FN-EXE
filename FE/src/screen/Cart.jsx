@@ -84,6 +84,7 @@ const Cart = ({ visible, setVisible, cartItems, removeFromCart, setCartItems }) 
                               value={item.quantity}
                               min="1"
                               onChange={(e) => handleQuantityChange(item._id, e.target.value)}
+                              style={{width:'50px', textAlign: "center"}}
                             />
                           </td>
                           <td style={{ verticalAlign: "middle" }}>{item.price}</td>
