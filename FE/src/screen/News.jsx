@@ -2,6 +2,11 @@ import React from "react";
 import { Container, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../style/news.css";
+import blog1 from "../assets/images/blog1.jpg"
+import blog2 from "../assets/images/blog2.jpg"
+import blog3 from "../assets/images/blog3.jpg"
+import blog4 from "../assets/images/blog4.jpg"
+import blog5 from "../assets/images/blog5.jpg"
 
 const News = () => {
   return (
@@ -23,7 +28,7 @@ const News = () => {
                 >
                   <Image
                     className="border-round-md"
-                    src="https://firstsight.vn/wp-content/uploads/2021/11/z3859590475402_5ac4ee36ec154e88d7c751c353347237.jpg"
+                    src={blog1}
                     width="350"
                     alt="filter"
                     style={{
@@ -33,7 +38,7 @@ const News = () => {
                   />
                   <div className="content_">
                     <h3 className="text-center pt-3">
-                      Nến Thơm Handmade Adorable Hương Nước Hoa Sang Trọng
+                    The Feeling Tea
                     </h3>
                   </div>
                 </Link>
@@ -45,7 +50,7 @@ const News = () => {
                 >
                   <Image
                     className="border-round-md"
-                    src="https://media.loveitopcdn.com/6458/cach-lam-nen-thom-handmade-29.jpg"
+                    src={blog2}
                     width="350"
                     alt="filter"
                     style={{
@@ -55,7 +60,7 @@ const News = () => {
                   />
                   <div className="content_">
                     <h3 className="text-center pt-3">
-                      Mua Nến Thơm Tinh Dầu Làm Quà | An Toàn & Thư Giãn
+                    Sea Salt
                     </h3>
                   </div>
                 </Link>
@@ -67,7 +72,7 @@ const News = () => {
                 >
                   <Image
                     className="border-round-md"
-                    src="https://firstsight.vn/wp-content/uploads/2022/06/z3481777641647_2df310000eb0e476823267147baebf5f.jpg"
+                    src={blog5}
                     width="350"
                     alt="filter"
                     style={{
@@ -77,8 +82,7 @@ const News = () => {
                   />
                   <div className="content_">
                     <h3 className="text-center pt-3">
-                      Nến thơm handmade Him 7 tinh dầu cao cấp First Sight
-                      Candle
+                    CupCake Hương Dâu
                     </h3>
                   </div>
                 </Link>

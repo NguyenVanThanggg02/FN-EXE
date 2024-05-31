@@ -78,7 +78,7 @@ const Produc = ({ productId, onAddToCart }) => {
                   <img
                     src={item}
                     alt="image"
-                    style={{ width: "100%", height: "140px", objectFit:'fill' }}
+                    style={{ width: "100%", height: "100px", objectFit:'fill' }}
                   />
                 )}
               />
@@ -102,8 +102,8 @@ const Produc = ({ productId, onAddToCart }) => {
             </div>
             <hr />
             <p><h6>{product.description}</h6></p>
-            <hr />
-            <div>
+             {/* <hr />
+           <div>
               <h5>CHÚ Ý KHI DÙNG NẾN THƠM</h5>
               <ul className="text-left " style={{marginLeft:'50px'}}>
                 <li>1) Không để gần các vật dụng dễ cháy.</li>
@@ -111,7 +111,7 @@ const Produc = ({ productId, onAddToCart }) => {
                 <li>3) Đảm bảo tắt nến khi ra khỏi phòng.</li>
                 <li>4) Tránh xa tầm tay của trẻ.</li>
               </ul>
-            </div>
+            </div> */}
             <hr/>
             <div className="mt-4">
               <h5>Kích Thước</h5>

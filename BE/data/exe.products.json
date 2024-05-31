@@ -5,8 +5,7 @@
     },
     "name": "The Girl",
     "images": [
-      "https://product.hstatic.net/200000455999/product/lemon___levender_w_c054eb9e1cb142feb236215ea0713b43_grande.jpg",
-      "https://product.hstatic.net/200000455999/product/lemon___lavender_mockup_55598558943d43c8a28690681fa82f58_1024x1024.jpg"
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717141082/z5494186166594_1e228fb47d5f377722a90de03dbb6228_vkuyjp.jpg"
     ],
     "price": 160000,
     "description": "Nến thơm không chỉ đen lại không khí ấm áp, một mùi thơm dễ chịu mà còn là một món quà thể hiện sự quan tâm tinh tế tới người nhận.",
@@ -22,8 +21,7 @@
     },
     "name": "Sea Salt",
     "images": [
-      "https://product.hstatic.net/200000192807/product/img_9873_194504debb5043a1a6b1807b8dff75cc_master.jpg",
-      "https://product.hstatic.net/200000192807/product/img_0012_ec4f21c1c03d4f0aaca50ddc322a937b_master.jpg"
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717141082/z5494185470527_220de721b7f489ae002258fb2c15793e_szdupz.jpg"
     ],
     "price": 160000,
     "description": "NẾN THƠM SEA SALT  của Color Of Calm Nhóm hương : Mát, Thư Giãn Là sự hòa quyện hương Muối biển, Nước tinh khiết, Lá Cọ",
@@ -39,10 +37,7 @@
     },
     "name": "The Feeling Tea",
     "images": [
-      "https://product.hstatic.net/200000192807/product/13df25d4-9f89-49e6-a34f-252fedcb4d64_8f1b7337683a436f84466d9d71473417_master.jpg",
-      "https://product.hstatic.net/200000192807/product/6a0628db-9d00-4f64-b8db-3cc42ab117c1_24ca837d1a0e481eb9de1b508c74cd77_master.jpg",
-      "https://product.hstatic.net/200000192807/product/865d2668-e715-4886-b235-e562e1ef11cd_4ede476f61b14a708948a56405efeec8_master.jpg",
-      "https://product.hstatic.net/200000192807/product/341fa597-490e-41ca-8832-cbd2c646bdd6_937bd96a5d6c4a3f8ab1797ecb535dcb_master.jpg"
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717141087/z5494185595204_8e994ac789e14ac6e64590b0197a1b3a_zi938t.jpg"
     ],
     "price": 160000,
     "description": "Nến thơm hương The Feeling Tea tạo không gian lãng mạn và dịu dàng.",
@@ -58,10 +53,7 @@
     },
     "name": "Behind The Rain",
     "images": [
-      "https://product.hstatic.net/200000192807/product/13df25d4-9f89-49e6-a34f-252fedcb4d64_8f1b7337683a436f84466d9d71473417_master.jpg",
-      "https://product.hstatic.net/200000192807/product/6a0628db-9d00-4f64-b8db-3cc42ab117c1_24ca837d1a0e481eb9de1b508c74cd77_master.jpg",
-      "https://product.hstatic.net/200000192807/product/865d2668-e715-4886-b235-e562e1ef11cd_4ede476f61b14a708948a56405efeec8_master.jpg",
-      "https://product.hstatic.net/200000192807/product/341fa597-490e-41ca-8832-cbd2c646bdd6_937bd96a5d6c4a3f8ab1797ecb535dcb_master.jpg"
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717141082/z5494186144796_b2357eb9b30ea4b15313f4decc33a5b8_tc3p5x.jpg"
     ],
     "price": 160000,
     "description": "Nến thơm After the rain của COEUR với mùi hương chủ đạo từ cây bạch đàn tạo hương thơm thanh khiết như làn gió mát sau cơn mưa - “After the rain” mang lại cho bạn năng lượng tích cực bằng một mùi hương tươi mát, dễ chịu. Mùi hương của nến thơm của COEUR được phối trộn rất kỳ công như cách sản xuất nước hoa với 3 tầng hương: tầng đầu, tầng giữa và tầng hương nền. Nhờ vậy, mùi hương có chiều sâu, tạo được điểm nhấn riêng biệt của từng mùi và đặc biệt là lưu lại hương thơm lâu hơn kể cả sau khi đã tắt nến.",
@@ -73,15 +65,16 @@
   },
 
   {
-    "name": "Nến CupCake Hương Cam",
+    "name": " Nến CupCake Hương Cam",
     "images": [
-      "https://product.hstatic.net/200000192807/product/13df25d4-9f89-49e6-a34f-252fedcb4d64_8f1b7337683a436f84466d9d71473417_master.jpg",
-      "https://product.hstatic.net/200000192807/product/6a0628db-9d00-4f64-b8db-3cc42ab117c1_24ca837d1a0e481eb9de1b508c74cd77_master.jpg",
-      "https://product.hstatic.net/200000192807/product/865d2668-e715-4886-b235-e562e1ef11cd_4ede476f61b14a708948a56405efeec8_master.jpg",
-      "https://product.hstatic.net/200000192807/product/341fa597-490e-41ca-8832-cbd2c646bdd6_937bd96a5d6c4a3f8ab1797ecb535dcb_master.jpg"
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142246/z5494265055717_2c01a4b7006744205ccdfeb3db871e40_vfaxza.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142248/z5494264592208_9006a1a76161db7feda7891d70452dd4_ojgo1w.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142249/z5494265531892_3c6fad662b0e99c12a4ee1cc26aa1e16_obmgzp.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142244/z5494243714106_602ac07c57a37d03aa6d535d0d91fc35_hwpumi.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142243/z5494264558458_acdd45ee46653226a00484d084abb9a3_s8pisc.jpg"
     ],
     "price": 70000,
-    "description": "Tạo Không Gian Ấm Áp Và Thư Giãn Với Hương Cam Tươi Mát Mang lại sự tươi mới và thoải mái cho ngôi nhà của bạn với nến CupCake Hương Cam. ",
+    "description": "Nến Cupcake Hương Cam là một loại nến thơm được thiết kế với hình dáng giống như một chiếc bánh cupcake, tạo nên sự dễ thương và hấp dẫn. Đây là một món đồ trang trí lý tưởng cho nhiều không gian khác nhau như phòng khách, phòng ngủ, hay bàn tiệc. ",
     "sizes": [
       {
         "size": "100ml"
@@ -90,15 +83,16 @@
   },
 
   {
-    "name": "Nến CupCake Hương Dâu",
+    "name": " Nến CupCake Hương Dâu",
     "images": [
-      "https://product.hstatic.net/200000192807/product/13df25d4-9f89-49e6-a34f-252fedcb4d64_8f1b7337683a436f84466d9d71473417_master.jpg",
-      "https://product.hstatic.net/200000192807/product/6a0628db-9d00-4f64-b8db-3cc42ab117c1_24ca837d1a0e481eb9de1b508c74cd77_master.jpg",
-      "https://product.hstatic.net/200000192807/product/865d2668-e715-4886-b235-e562e1ef11cd_4ede476f61b14a708948a56405efeec8_master.jpg",
-      "https://product.hstatic.net/200000192807/product/341fa597-490e-41ca-8832-cbd2c646bdd6_937bd96a5d6c4a3f8ab1797ecb535dcb_master.jpg"
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142247/z5494265431541_2930c16f65d36908a280bc8c679ca2e9_moy6cv.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142248/z5494264592208_9006a1a76161db7feda7891d70452dd4_ojgo1w.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142249/z5494265531892_3c6fad662b0e99c12a4ee1cc26aa1e16_obmgzp.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142244/z5494243714106_602ac07c57a37d03aa6d535d0d91fc35_hwpumi.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142243/z5494264558458_acdd45ee46653226a00484d084abb9a3_s8pisc.jpg"
     ],
     "price": 70000,
-    "description": "Tạo Không Gian Ngọt Ngào Và Lãng Mạn Với Hương Dâu Tươi Mát Mang đến sự ngọt ngào và ấm áp cho không gian sống của bạn với nến CupCake Hương Dâu.",
+    "description": "Nến CupCake Hương dâu là một loại nến thơm được thiết kế với hình dáng giống như một chiếc bánh cupcake, thường có mùi hương ngọt ngào của dâu tây.",
     "sizes": [
       {
         "size": "100ml"
@@ -106,15 +100,16 @@
     ]
   },
   {
-    "name": "Nến CupCake Hương Hoa Sen",
+    "name": " Nến CupCake Hương Hoa Sen",
     "images": [
-      "https://product.hstatic.net/200000192807/product/13df25d4-9f89-49e6-a34f-252fedcb4d64_8f1b7337683a436f84466d9d71473417_master.jpg",
-      "https://product.hstatic.net/200000192807/product/6a0628db-9d00-4f64-b8db-3cc42ab117c1_24ca837d1a0e481eb9de1b508c74cd77_master.jpg",
-      "https://product.hstatic.net/200000192807/product/865d2668-e715-4886-b235-e562e1ef11cd_4ede476f61b14a708948a56405efeec8_master.jpg",
-      "https://product.hstatic.net/200000192807/product/341fa597-490e-41ca-8832-cbd2c646bdd6_937bd96a5d6c4a3f8ab1797ecb535dcb_master.jpg"
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142243/z5494264330608_0fd1e43c46bee8a666bca22e772f77d2_pm80yl.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142248/z5494264592208_9006a1a76161db7feda7891d70452dd4_ojgo1w.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142249/z5494265531892_3c6fad662b0e99c12a4ee1cc26aa1e16_obmgzp.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142244/z5494243714106_602ac07c57a37d03aa6d535d0d91fc35_hwpumi.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142243/z5494264558458_acdd45ee46653226a00484d084abb9a3_s8pisc.jpg"
     ],
     "price": 70000,
-    "description": "Mang Lại Sự Tĩnh Tâm Và Thanh Bình Với Hương Hoa Sen Dịu Nhẹ Nến CupCake Hương Hoa Sen sẽ mang đến sự thanh bình và tinh tế cho không gian sống của bạn.",
+    "description": "Nến CupCake hương hoa sen là một loại nến thơm được thiết kế với hình dáng giống một chiếc bánh cupcake, tạo nên vẻ ngoài đẹp mắt và dễ thương. ",
     "sizes": [
       {
         "size": "100ml"
@@ -124,13 +119,83 @@
   {
     "name": "Nến CupCake Hương Cà Phê",
     "images": [
-      "https://product.hstatic.net/200000192807/product/13df25d4-9f89-49e6-a34f-252fedcb4d64_8f1b7337683a436f84466d9d71473417_master.jpg",
-      "https://product.hstatic.net/200000192807/product/6a0628db-9d00-4f64-b8db-3cc42ab117c1_24ca837d1a0e481eb9de1b508c74cd77_master.jpg",
-      "https://product.hstatic.net/200000192807/product/865d2668-e715-4886-b235-e562e1ef11cd_4ede476f61b14a708948a56405efeec8_master.jpg",
-      "https://product.hstatic.net/200000192807/product/341fa597-490e-41ca-8832-cbd2c646bdd6_937bd96a5d6c4a3f8ab1797ecb535dcb_master.jpg"
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142247/z5494265431541_2930c16f65d36908a280bc8c679ca2e9_moy6cv.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142248/z5494264592208_9006a1a76161db7feda7891d70452dd4_ojgo1w.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142249/z5494265531892_3c6fad662b0e99c12a4ee1cc26aa1e16_obmgzp.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142244/z5494243714106_602ac07c57a37d03aa6d535d0d91fc35_hwpumi.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142243/z5494264558458_acdd45ee46653226a00484d084abb9a3_s8pisc.jpg"
     ],
     "price": 70000,
-    "description": "Một Món Quà Tuyệt Vời Cho Người Yêu Cà Phê Nến CupCake Hương Cà Phê là sự kết hợp hoàn hảo giữa hương thơm quyến rũ của cà phê và sự ấm áp của ánh nến. ",
+    "description": "Nến CupCake hương cà phê là một loại nến trang trí độc đáo và thơm ngon, được thiết kế để trông giống như một chiếc bánh cupcake. ",
+    "sizes": [
+      {
+        "size": "100ml"
+      }
+    ]
+  },
+
+  {
+    "name": "Nến cupcake màu vàng trắng ( The Girl)",
+    "images": [
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142245/z5494265046970_f4d063450df5e0268b81478f01026644_m0sihq.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142248/z5494264592208_9006a1a76161db7feda7891d70452dd4_ojgo1w.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142249/z5494265531892_3c6fad662b0e99c12a4ee1cc26aa1e16_obmgzp.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142244/z5494243714106_602ac07c57a37d03aa6d535d0d91fc35_hwpumi.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142243/z5494264558458_acdd45ee46653226a00484d084abb9a3_s8pisc.jpg"
+    ],
+    "price": 70000,
+    "description": "Nến CupCake hương cà phê là một loại nến trang trí độc đáo và thơm ngon, được thiết kế để trông giống như một chiếc bánh cupcake. ",
+    "sizes": [
+      {
+        "size": "100ml"
+      }
+    ]
+  },
+  {
+    "name": "Nến cupcake màu hồng tím(Sea Salt)",
+    "images": [
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142243/z5494264558458_acdd45ee46653226a00484d084abb9a3_s8pisc.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142248/z5494264592208_9006a1a76161db7feda7891d70452dd4_ojgo1w.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142249/z5494265531892_3c6fad662b0e99c12a4ee1cc26aa1e16_obmgzp.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142244/z5494243714106_602ac07c57a37d03aa6d535d0d91fc35_hwpumi.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142243/z5494264558458_acdd45ee46653226a00484d084abb9a3_s8pisc.jpg"
+    ],
+    "price": 70000,
+    "description": "Nến CupCake hương cà phê là một loại nến trang trí độc đáo và thơm ngon, được thiết kế để trông giống như một chiếc bánh cupcake. ",
+    "sizes": [
+      {
+        "size": "100ml"
+      }
+    ]
+  },
+  {
+    "name": "nến cupcake màu xanh dương (The Feeling Tea)",
+    "images": [
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142244/z5494264739198_6e1a07f6024912b3ae8788101994622c_dsnr2o.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142248/z5494264592208_9006a1a76161db7feda7891d70452dd4_ojgo1w.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142249/z5494265531892_3c6fad662b0e99c12a4ee1cc26aa1e16_obmgzp.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142244/z5494243714106_602ac07c57a37d03aa6d535d0d91fc35_hwpumi.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142243/z5494264558458_acdd45ee46653226a00484d084abb9a3_s8pisc.jpg"
+    ],
+    "price": 70000,
+    "description": "Nến CupCake hương cà phê là một loại nến trang trí độc đáo và thơm ngon, được thiết kế để trông giống như một chiếc bánh cupcake. ",
+    "sizes": [
+      {
+        "size": "100ml"
+      }
+    ]
+  },
+  {
+    "name": "nến cupcake màu xanh lá (Behind The Rain)",
+    "images": [
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142245/z5494264787225_f8924cbbe01e2afaceb6c6fb400fafae_xl5uwc.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142248/z5494264592208_9006a1a76161db7feda7891d70452dd4_ojgo1w.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142249/z5494265531892_3c6fad662b0e99c12a4ee1cc26aa1e16_obmgzp.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142244/z5494243714106_602ac07c57a37d03aa6d535d0d91fc35_hwpumi.jpg",
+      "https://res.cloudinary.com/degpdpheb/image/upload/v1717142243/z5494264558458_acdd45ee46653226a00484d084abb9a3_s8pisc.jpg"
+    ],
+    "price": 70000,
+    "description": "Nến CupCake hương cà phê là một loại nến trang trí độc đáo và thơm ngon, được thiết kế để trông giống như một chiếc bánh cupcake. ",
     "sizes": [
       {
         "size": "100ml"
