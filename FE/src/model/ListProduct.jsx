@@ -31,9 +31,9 @@ const ListProduct = ({ onProductSelect, search, onAddToCart }) => {
       <Row className="new-products" style={{marginBottom:'80px'}}>
         <h3 style={{color:'#FF9900'}}>Danh Sách Sản Phẩm</h3>
       </Row>
-      <Row className=" new-products-item d-flex justify-content-between">
+      <Row className=" new-products-item d-flex justify-content-center">
         {listProduct.map((p) => (
-          <Col key={p._id} md={4} sm={6} xs={12}>
+          <Col key={p._id} md={3} sm={6} xs={12} style={{marginBottom:'20px'}}>
             <Card
               style={{
                 height: "100%",

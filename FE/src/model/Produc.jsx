@@ -101,8 +101,18 @@ const Produc = ({ productId, onAddToCart }) => {
               </span>
             </div>
             <hr />
-            <p>{product.description}</p>
+            <p><h6>{product.description}</h6></p>
             <hr />
+            <div>
+              <h5>CHÚ Ý KHI DÙNG NẾN THƠM</h5>
+              <ul className="text-left " style={{marginLeft:'50px'}}>
+                <li>1) Không để gần các vật dụng dễ cháy.</li>
+                <li>2) không đốt thời gian quá 4 tiếng.</li>
+                <li>3) Đảm bảo tắt nến khi ra khỏi phòng.</li>
+                <li>4) Tránh xa tầm tay của trẻ.</li>
+              </ul>
+            </div>
+            <hr/>
             <div className="mt-4">
               <h5>Kích Thước</h5>
               {product.sizes &&
@@ -117,6 +127,7 @@ const Produc = ({ productId, onAddToCart }) => {
                   </Button>
                 ))}
             </div>
+            <hr/>
             <div className="mt-4">
               <h5>Số Lượng</h5>
               <div>

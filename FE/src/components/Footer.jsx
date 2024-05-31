@@ -111,7 +111,7 @@ const Footer = () => {
       <div class="copyright clearfix">
         <span class="wsp">
           <span class="mobile">
-            Bản quyền thuộc về <b>Nguyen Van Thang</b>
+            Bản quyền thuộc về <b>Colors Of Calm</b>
           </span>
         </span>
       </div>

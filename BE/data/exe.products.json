@@ -1,65 +1,140 @@
-[{
-  "_id": {
-    "$oid": "6653e6ef6e7d80aecc9d52c7"
+[
+  {
+    "_id": {
+      "$oid": "6653e6ef6e7d80aecc9d52c7"
+    },
+    "name": "The Girl",
+    "images": [
+      "https://product.hstatic.net/200000455999/product/lemon___levender_w_c054eb9e1cb142feb236215ea0713b43_grande.jpg",
+      "https://product.hstatic.net/200000455999/product/lemon___lavender_mockup_55598558943d43c8a28690681fa82f58_1024x1024.jpg"
+    ],
+    "price": 160000,
+    "description": "Nến thơm không chỉ đen lại không khí ấm áp, một mùi thơm dễ chịu mà còn là một món quà thể hiện sự quan tâm tinh tế tới người nhận.",
+    "sizes": [
+      {
+        "size": "200ml"
+      }
+    ]
   },
-  "name": "Nến thơm hương Lavender",
-  "images": [
-    "https://product.hstatic.net/200000455999/product/lemon___levender_w_c054eb9e1cb142feb236215ea0713b43_grande.jpg",
-    "https://product.hstatic.net/200000455999/product/lemon___lavender_mockup_55598558943d43c8a28690681fa82f58_1024x1024.jpg"
-  ],
-  "price": 10.99,
-  "description": "Nến thơm hương Lavender giúp tạo không gian thư giãn và dễ chịu.",
-  "sizes": [
-    {
-      "size": "Small"
+  {
+    "_id": {
+      "$oid": "6653e6ef6e7d80aecc9d52c8"
     },
-    {
-      "size": "Medium"
-    },
-    {
-      "size": "Large"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "6653e6ef6e7d80aecc9d52c8"
+    "name": "Sea Salt",
+    "images": [
+      "https://product.hstatic.net/200000192807/product/img_9873_194504debb5043a1a6b1807b8dff75cc_master.jpg",
+      "https://product.hstatic.net/200000192807/product/img_0012_ec4f21c1c03d4f0aaca50ddc322a937b_master.jpg"
+    ],
+    "price": 160000,
+    "description": "NẾN THƠM SEA SALT  của Color Of Calm Nhóm hương : Mát, Thư Giãn Là sự hòa quyện hương Muối biển, Nước tinh khiết, Lá Cọ",
+    "sizes": [
+      {
+        "size": "200ml"
+      }
+    ]
   },
-  "name": "Nến thơm hương Vanilla",
-  "images": [
-    "https://product.hstatic.net/200000192807/product/img_9873_194504debb5043a1a6b1807b8dff75cc_master.jpg",
-    "https://product.hstatic.net/200000192807/product/img_0012_ec4f21c1c03d4f0aaca50ddc322a937b_master.jpg"
-  ],
-  "price": 12.99,
-  "description": "Nến thơm hương Vanilla mang lại hương thơm ngọt ngào và ấm áp.",
-  "sizes": [
-    {
-      "size": "Small"
+  {
+    "_id": {
+      "$oid": "6653e6ef6e7d80aecc9d52c9"
     },
-    {
-      "size": "Large"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "6653e6ef6e7d80aecc9d52c9"
+    "name": "The Feeling Tea",
+    "images": [
+      "https://product.hstatic.net/200000192807/product/13df25d4-9f89-49e6-a34f-252fedcb4d64_8f1b7337683a436f84466d9d71473417_master.jpg",
+      "https://product.hstatic.net/200000192807/product/6a0628db-9d00-4f64-b8db-3cc42ab117c1_24ca837d1a0e481eb9de1b508c74cd77_master.jpg",
+      "https://product.hstatic.net/200000192807/product/865d2668-e715-4886-b235-e562e1ef11cd_4ede476f61b14a708948a56405efeec8_master.jpg",
+      "https://product.hstatic.net/200000192807/product/341fa597-490e-41ca-8832-cbd2c646bdd6_937bd96a5d6c4a3f8ab1797ecb535dcb_master.jpg"
+    ],
+    "price": 160000,
+    "description": "Nến thơm hương The Feeling Tea tạo không gian lãng mạn và dịu dàng.",
+    "sizes": [
+      {
+        "size": "200ml"
+      }
+    ]
   },
-  "name": "Nến thơm hương Rose",
-  "images": [
-    "https://product.hstatic.net/200000192807/product/13df25d4-9f89-49e6-a34f-252fedcb4d64_8f1b7337683a436f84466d9d71473417_master.jpg",
-    "https://product.hstatic.net/200000192807/product/6a0628db-9d00-4f64-b8db-3cc42ab117c1_24ca837d1a0e481eb9de1b508c74cd77_master.jpg",
-    "https://product.hstatic.net/200000192807/product/865d2668-e715-4886-b235-e562e1ef11cd_4ede476f61b14a708948a56405efeec8_master.jpg",
-    "https://product.hstatic.net/200000192807/product/341fa597-490e-41ca-8832-cbd2c646bdd6_937bd96a5d6c4a3f8ab1797ecb535dcb_master.jpg"
-  ],
-  "price": 14.99,
-  "description": "Nến thơm hương Rose tạo không gian lãng mạn và dịu dàng.",
-  "sizes": [
-    {
-      "size": "Medium"
+  {
+    "_id": {
+      "$oid": "6653e6ef6e7d80aecc9d52c0"
     },
-    {
-      "size": "Large"
-    }
-  ]
-}]
+    "name": "Behind The Rain",
+    "images": [
+      "https://product.hstatic.net/200000192807/product/13df25d4-9f89-49e6-a34f-252fedcb4d64_8f1b7337683a436f84466d9d71473417_master.jpg",
+      "https://product.hstatic.net/200000192807/product/6a0628db-9d00-4f64-b8db-3cc42ab117c1_24ca837d1a0e481eb9de1b508c74cd77_master.jpg",
+      "https://product.hstatic.net/200000192807/product/865d2668-e715-4886-b235-e562e1ef11cd_4ede476f61b14a708948a56405efeec8_master.jpg",
+      "https://product.hstatic.net/200000192807/product/341fa597-490e-41ca-8832-cbd2c646bdd6_937bd96a5d6c4a3f8ab1797ecb535dcb_master.jpg"
+    ],
+    "price": 160000,
+    "description": "Nến thơm After the rain của COEUR với mùi hương chủ đạo từ cây bạch đàn tạo hương thơm thanh khiết như làn gió mát sau cơn mưa - “After the rain” mang lại cho bạn năng lượng tích cực bằng một mùi hương tươi mát, dễ chịu. Mùi hương của nến thơm của COEUR được phối trộn rất kỳ công như cách sản xuất nước hoa với 3 tầng hương: tầng đầu, tầng giữa và tầng hương nền. Nhờ vậy, mùi hương có chiều sâu, tạo được điểm nhấn riêng biệt của từng mùi và đặc biệt là lưu lại hương thơm lâu hơn kể cả sau khi đã tắt nến.",
+    "sizes": [
+      {
+        "size": "200ml"
+      }
+    ]
+  },
+
+  {
+    "name": "Nến CupCake Hương Cam",
+    "images": [
+      "https://product.hstatic.net/200000192807/product/13df25d4-9f89-49e6-a34f-252fedcb4d64_8f1b7337683a436f84466d9d71473417_master.jpg",
+      "https://product.hstatic.net/200000192807/product/6a0628db-9d00-4f64-b8db-3cc42ab117c1_24ca837d1a0e481eb9de1b508c74cd77_master.jpg",
+      "https://product.hstatic.net/200000192807/product/865d2668-e715-4886-b235-e562e1ef11cd_4ede476f61b14a708948a56405efeec8_master.jpg",
+      "https://product.hstatic.net/200000192807/product/341fa597-490e-41ca-8832-cbd2c646bdd6_937bd96a5d6c4a3f8ab1797ecb535dcb_master.jpg"
+    ],
+    "price": 70000,
+    "description": "Tạo Không Gian Ấm Áp Và Thư Giãn Với Hương Cam Tươi Mát Mang lại sự tươi mới và thoải mái cho ngôi nhà của bạn với nến CupCake Hương Cam. ",
+    "sizes": [
+      {
+        "size": "100ml"
+      }
+    ]
+  },
+
+  {
+    "name": "Nến CupCake Hương Dâu",
+    "images": [
+      "https://product.hstatic.net/200000192807/product/13df25d4-9f89-49e6-a34f-252fedcb4d64_8f1b7337683a436f84466d9d71473417_master.jpg",
+      "https://product.hstatic.net/200000192807/product/6a0628db-9d00-4f64-b8db-3cc42ab117c1_24ca837d1a0e481eb9de1b508c74cd77_master.jpg",
+      "https://product.hstatic.net/200000192807/product/865d2668-e715-4886-b235-e562e1ef11cd_4ede476f61b14a708948a56405efeec8_master.jpg",
+      "https://product.hstatic.net/200000192807/product/341fa597-490e-41ca-8832-cbd2c646bdd6_937bd96a5d6c4a3f8ab1797ecb535dcb_master.jpg"
+    ],
+    "price": 70000,
+    "description": "Tạo Không Gian Ngọt Ngào Và Lãng Mạn Với Hương Dâu Tươi Mát Mang đến sự ngọt ngào và ấm áp cho không gian sống của bạn với nến CupCake Hương Dâu.",
+    "sizes": [
+      {
+        "size": "100ml"
+      }
+    ]
+  },
+  {
+    "name": "Nến CupCake Hương Hoa Sen",
+    "images": [
+      "https://product.hstatic.net/200000192807/product/13df25d4-9f89-49e6-a34f-252fedcb4d64_8f1b7337683a436f84466d9d71473417_master.jpg",
+      "https://product.hstatic.net/200000192807/product/6a0628db-9d00-4f64-b8db-3cc42ab117c1_24ca837d1a0e481eb9de1b508c74cd77_master.jpg",
+      "https://product.hstatic.net/200000192807/product/865d2668-e715-4886-b235-e562e1ef11cd_4ede476f61b14a708948a56405efeec8_master.jpg",
+      "https://product.hstatic.net/200000192807/product/341fa597-490e-41ca-8832-cbd2c646bdd6_937bd96a5d6c4a3f8ab1797ecb535dcb_master.jpg"
+    ],
+    "price": 70000,
+    "description": "Mang Lại Sự Tĩnh Tâm Và Thanh Bình Với Hương Hoa Sen Dịu Nhẹ Nến CupCake Hương Hoa Sen sẽ mang đến sự thanh bình và tinh tế cho không gian sống của bạn.",
+    "sizes": [
+      {
+        "size": "100ml"
+      }
+    ]
+  },
+  {
+    "name": "Nến CupCake Hương Cà Phê",
+    "images": [
+      "https://product.hstatic.net/200000192807/product/13df25d4-9f89-49e6-a34f-252fedcb4d64_8f1b7337683a436f84466d9d71473417_master.jpg",
+      "https://product.hstatic.net/200000192807/product/6a0628db-9d00-4f64-b8db-3cc42ab117c1_24ca837d1a0e481eb9de1b508c74cd77_master.jpg",
+      "https://product.hstatic.net/200000192807/product/865d2668-e715-4886-b235-e562e1ef11cd_4ede476f61b14a708948a56405efeec8_master.jpg",
+      "https://product.hstatic.net/200000192807/product/341fa597-490e-41ca-8832-cbd2c646bdd6_937bd96a5d6c4a3f8ab1797ecb535dcb_master.jpg"
+    ],
+    "price": 70000,
+    "description": "Một Món Quà Tuyệt Vời Cho Người Yêu Cà Phê Nến CupCake Hương Cà Phê là sự kết hợp hoàn hảo giữa hương thơm quyến rũ của cà phê và sự ấm áp của ánh nến. ",
+    "sizes": [
+      {
+        "size": "100ml"
+      }
+    ]
+  }
+]
