@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Contact from "./screen/Contact";
 import Blog from "./screen/Blog";
 import Payment from "./screen/Payment";
+import CheckOut from "./screen/CheckOut";
 
 function App() {
   return (
@@ -41,6 +42,12 @@ function App() {
               <Header />
               <Mid_Header />
               <Payment />
+              <Footer />
+            </>} />
+            <Route path="/checkout" element={<>
+              <Header />
+              <Mid_Header />
+              <CheckOut />
               <Footer />
             </>} />
       </Routes>

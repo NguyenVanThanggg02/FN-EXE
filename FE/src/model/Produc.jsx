@@ -6,6 +6,7 @@ import "../style/product.css";
 import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
 import { CashCoin } from "react-bootstrap-icons";
+import { Link } from "react-router-dom";
 
 
 const Produc = ({ productId, onAddToCart }) => {
@@ -144,9 +145,12 @@ const Produc = ({ productId, onAddToCart }) => {
               >
                 Thêm vào giỏ Hàng
               </Button>
+              <Link  to={'/checkout'}>
               <Button className="btn btn-success d-block text-center">
                 Mua ngay
               </Button>
+              </Link>
+              
             </div>
           </Col>
         </Row>
